@@ -57,6 +57,8 @@
 
 .the_h1 {
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif cursive;
+    font-size: 15em;
 }
 
 body
@@ -107,7 +109,7 @@ ul {
 } */
 
 .my_container {
-    margin-top: 15em;
+    margin-top: 0em;
 }
 
 
