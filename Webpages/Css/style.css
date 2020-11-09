@@ -130,27 +130,45 @@ ul {
     background-color: black;
 }
 
-.img_out_loft {
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+.my_col_1 {
+    background-image: url("/Webpages/Images/outside_loft.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my_col_1:hover{
+    background-image: url("/Webpages/Images/inside_loft.jpg");
 }
 
-.img_out_penthouse {
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+
+.my_col_2{
+    background-image: url("/Webpages/Images/outside_condo_2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
-.img_out_town_home {
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+.my_col_2:hover{
+    background-image: url("/Webpages/Images/andreas-ronningen-8RMP683VW-o-unsplash.jpg");
+
 }
 
-.img_out_condo {
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+.my_col_3{
+    background-image: url("/Webpages/Images/outside_town_home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my_col_3:hover {
+    background-image: url("/Webpages/Images/indoor_Town_Home.jpg");
+}
+
+
+.my_col_4 {
+    background-image: url("/Webpages/Images/outside_penthouse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my_col_4:hover {
+    background-image: url("/Webpages/Images/Pent_house_indoor.jpg");
 }
 
