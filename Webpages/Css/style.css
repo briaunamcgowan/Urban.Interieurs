@@ -33,7 +33,7 @@
 }
 
 body
-{   background-image: url(/Webpages/Css/jorge-gascon-dZOYdWtko-Q-unsplash.jpg) ;
+{   background-image: url(/Webpages/Images/jorge-gascon-dZOYdWtko-Q-unsplash.jpg) ;
     background-size: cover;
     color: white;
     text-align: right;
@@ -56,7 +56,7 @@ p {
   list-style-type: none;
   width: 95%;
   background-color:black ;
-  
+  border:3px solid goldenrod ;
 }
 
 ul {
