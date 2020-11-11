@@ -1,0 +1,32 @@
+body {
+      background-color: black; 
+
+}
+
+h1 { color: rgb(243, 205, 52);
+      font-style: italic;
+      margin-left: 45% ;
+}
+
+
+p {  color: cornsilk;
+      margin-bottom: 300%;
+
+}
+
+.nav {width: 150px; position: fixed;
+      z-index: 1; top: 20px; left: 10px; background-color: black;
+      overflow-x: hidden; padding: 8px 0;
+  }
+  .nav  li {display: inline-block; padding: 0 25px 0 25px}
+  .nav  li  a {text-decoration: none; color:whitesmoke; font-size: 25px;
+      display: block; padding: 6px 8px 6px 16px;
+  }
+  .nav li  a:hover {color: gold}
+
+
+
+.img col  { margin-bottom:70%;
+   width: 600px;
+   height:auto;
+}  
