@@ -26,7 +26,13 @@ p {  color: cornsilk;
 
 
 
-.img col  { margin-bottom:70%;
+.img  { margin-bottom:70%;
    width: 600px;
    height:auto;
-}  
+  background-image: url('images_kitchen.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+border: 1px solid cornsilk;
+}
+ 
+      
