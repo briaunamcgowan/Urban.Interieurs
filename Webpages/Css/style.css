@@ -14,7 +14,7 @@
 }
 
 
-.nav {width: 150px; position: fixed;
+.nav {width: 150px; position: flex;
   z-index: 1; top: 20px; left: 10px; background-color: black;
   overflow-x: hidden; padding: 8px 0;
   margin-top: 15em;
