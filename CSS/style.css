@@ -1,0 +1,65 @@
+
+/*global*/
+html {position: relative; min-height: 100%;}
+
+body { margin: 0 0 100px;
+padding: 0px;
+font-family: cursive; background-color: black;}
+
+main {margin-left: 160px; font-size: 28px; padding: 0px 10px}
+
+.homeP {color:white; padding:5%;}
+
+h1 {color: white; text-align: center;}
+
+
+.site {display:flex; min-height: 100vh;flex-direction: column;}
+
+/*nav bar*/
+.nav {width: 150px; position: fixed;
+    z-index: 1; top: 20px; left: 10px; background-color: black; 
+    overflow-x: hidden; padding: 8px 0;
+}
+
+.nav  li {display: inline-block; padding: 0 25px 0 25px}
+
+.nav  li  a {text-decoration: none; color:whitesmoke; font-size: 25px;
+    display: block; padding: 6px 8px 6px 16px;
+}
+
+.nav li  a:hover {color: darkgoldenrod}
+
+/*main*/
+
+.col-para {border-style: solid;  border-color: darkgoldenrod; padding:10px;}
+
+/* image - hp*/
+#bathroom {float: left; padding: 0px; margin: 0px; border-style: solid;  border-color: darkgoldenrod;}
+
+/*footer*/
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding: 20px 0px;
+    background-color:black;
+    color: white;
+    text-align: center;
+  }
+
+  .footer-social-icons {width:100%; height:auto; margin:auto;}
+
+
+  .footer-social-icons ul {margin: 0px; padding: 0px; text-align: center; color: white;}
+  
+  .footer-social-icons ul li {display: inline-block; width: 50px; height: 50x; margin:0 px 10px; border-radius: 100%; background: white}
+
+  .footer-social-icons ul li a {color: black; font-size: 25px;}
+
+  .footer-social-icons ul li a i {line-height: 50px;}
+
+  .footer-bottom {width:100%; height:auto; margin: auto; background: black; padding: 5px}
+
+  .footer-bottom p {font-family: cursive 14px; text-align:center; color: white;}

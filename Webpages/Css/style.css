@@ -1,0 +1,143 @@
+
+.header
+{   
+    font:darkgoldenrod;
+    font-family: monospace;
+    font-size: 2em;
+    text-align: left;
+    padding: 5;
+    border:100;
+    font-family: bold;
+    text-size-adjust: 100;
+    background-color: black;
+
+}
+
+
+.nav {width: 150px; position: flex;
+  z-index: 1; top: 20px; left: 10px; background-color: black;
+  overflow-x: hidden; padding: 8px 0;
+  margin-top: 15em;
+  padding: 0;
+  
+}
+.nav  li {display: inline-block; padding: 0 25px 0 25px}
+.nav  li  a {text-decoration: none; color:whitesmoke; font-size: 25px;
+  display: block; padding: 6px 8px 6px 16px;
+}
+.nav li  a:hover {color: gold}
+
+
+.the_h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif cursive;
+    font-size: 15em;
+}
+
+body
+{   background-image: url(/Webpages/Images/jorge-gascon-dZOYdWtko-Q-unsplash.jpg) ;
+    background-size: cover;
+    color: white;
+    text-align: right;
+    font: white;
+}
+.slider
+{
+    background-image: url(/c/Users/Jacin/OneDrive/Pictures/Urban_Interiors/jorge-gascon-dZOYdWtko-Q-unsplash.jpg) ;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+p {
+  list-style-type: none;
+  margin-top: 17%;
+  margin-left: 2.5%;
+  padding: 3%;
+  text-align:center;
+  list-style-type: none;
+  width: 95%;
+  background-color:black ;
+  border:3px solid goldenrod ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    }
+
+    
+
+
+.my_container {
+    margin-top: 0em;
+}
+
+
+.my_row {
+    border: 3px solid darkgoldenrod;
+    margin: 0%;
+    padding: 0%;
+}
+
+.my_col {
+    border: 3px solid darkgoldenrod;
+    margin: 0%;
+    padding: 0%;    ;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);;
+    width: 10em;
+    height: 25em;
+    background-color: black;
+}
+
+.my_col_1 {
+    background-image: url("/Webpages/Images/outside_loft.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my_col_1:hover{
+    background-image: url("/Webpages/Images/inside_loft.jpg");
+}
+
+
+.my_col_2{
+    background-image: url("/Webpages/Images/outside_condo_2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.my_col_2:hover{
+    background-image: url("/Webpages/Images/andreas-ronningen-8RMP683VW-o-unsplash.jpg");
+
+}
+
+.my_col_3{
+    background-image: url("/Webpages/Images/outside_town_home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my_col_3:hover {
+    background-image: url("/Webpages/Images/indoor_Town_Home.jpg");
+}
+
+
+.my_col_4 {
+    background-image: url("/Webpages/Images/outside_penthouse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my_col_4:hover {
+    background-image: url("/Webpages/Images/Pent_house_indoor.jpg");
+}
+
