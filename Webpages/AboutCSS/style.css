@@ -1,4 +1,4 @@
-* {background-color: black;}
+body {background-color: black;}
 
 /*Navigation Bar*/
 .nav {width: 150px; position: fixed;
@@ -12,16 +12,16 @@
 
 
 /* About Page Headings*/
-.h1about{text-align: center;color: goldenrod;font-family:cursive;margin-bottom:-7% ; ;}
+.h1about{text-align: center;color: goldenrod;font-family:cursive;}
 .abouth2 {text-align: center;color: goldenrod;}
-.abouth1d {text-align: center;color: goldenrod;margin-bottom: -0%;}
+.abouth1d {text-align: center;color: goldenrod;}
 
 /*Paragraphs*/
-.Ap {text-align: center;color: white;border: solid goldenrod;border-width: 50px;padding: 10%; font-size: 30px;}
+.Ap {text-align: center;color: white;border: solid goldenrod;border-width: 50px;padding: 10%; font-size: 30px; background-color: black;}
 .Ap2 {text-align: center;color: white;}
 
 /*Grid layout and Images*/
-.containerPro{align-self: center;margin-top: -1.2%;}
+.Pro{align-self: center;margin-top: -1.2%;}
 .pplPic {border-radius: 50%;
     
    }
