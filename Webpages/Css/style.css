@@ -1,6 +1,9 @@
 
+<<<<<<< HEAD
 body{font-family: 'Charm', cursive;}
 
+=======
+>>>>>>> e32d77f844ddce111789fc9f43952449f7a4a4c0
 
 .header
 {   
@@ -9,9 +12,9 @@ body{font-family: 'Charm', cursive;}
     font-size: 2em;
     text-align: left;
     padding: 5;
-    border:100;
+    border:10;
     font-family: bold;
-    text-size-adjust: 100;
+    
     background-color: black;
 
 }
@@ -20,7 +23,7 @@ body{font-family: 'Charm', cursive;}
 .nav {width: 150px; position: flex;
   z-index: 1; top: 20px; left: 10px; background-color: black;
   overflow-x: hidden; padding: 8px 0;
-  margin-top: 15em;
+  margin-top: 1em;
   padding: 0;
   
 }
@@ -35,6 +38,7 @@ body{font-family: 'Charm', cursive;}
     text-align: center;
     font-family:Arial, Helvetica, sans-serif cursive;
     font-size: 15em;
+    border-top: 150px;
 }
 
 body
@@ -54,7 +58,7 @@ body
 
 p {
   list-style-type: none;
-  margin-top: 17%;
+  margin-top: 5%;
   margin-left: 2.5%;
   padding: 3%;
   text-align:center;
@@ -64,7 +68,7 @@ p {
   border:3px solid goldenrod ;
 }
 
-ul {
+.ul li{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -109,6 +113,8 @@ ul {
 }
 .my_col_1:hover{
     background-image: url("/Webpages/Images/inside_loft.jpg");
+    width: 10em;
+    height: 25em;
 }
 
 
@@ -119,7 +125,8 @@ ul {
 }
 
 .my_col_2:hover{
-    background-image: url("/Webpages/Images/andreas-ronningen-8RMP683VW-o-unsplash.jpg");
+    background-image: url("/Webpages/Images/Loft_inside.jpg");
+    width: flex;
 
 }
 
@@ -131,6 +138,8 @@ ul {
 
 .my_col_3:hover {
     background-image: url("/Webpages/Images/indoor_Town_Home.jpg");
+    width: 10em;
+    height: 25em;
 }
 
 
@@ -142,5 +151,7 @@ ul {
 
 .my_col_4:hover {
     background-image: url("/Webpages/Images/Pent_house_indoor.jpg");
+    width: 10em;
+    height: 25em;
 }
 
