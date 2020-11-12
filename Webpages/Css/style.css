@@ -1,9 +1,6 @@
 
-<<<<<<< HEAD
 body{font-family: 'Charm', cursive;}
 
-=======
->>>>>>> e32d77f844ddce111789fc9f43952449f7a4a4c0
 
 .header
 {   
@@ -41,8 +38,7 @@ body{font-family: 'Charm', cursive;}
     border-top: 150px;
 }
 
-body
-{   background-image: url(/Webpages/Images/jorge-gascon-dZOYdWtko-Q-unsplash.jpg) ;
+body {  background-image: url(/Webpages/Images/jorge-gascon-dZOYdWtko-Q-unsplash.jpg) ;
     background-size: cover;
     color: white;
     text-align: right;
@@ -67,6 +63,7 @@ p {
   background-color:black ;
   border:3px solid goldenrod ;
 }
+
 
 .ul li{
     list-style-type: none;

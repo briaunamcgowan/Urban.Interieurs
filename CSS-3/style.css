@@ -2,17 +2,51 @@ body {
       background-color: black; font-family: 'Charm', cursive; ; 
 
 }
+.banner_1 {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+}
+.banner_vid {
+      position: absolute;
+      top: 0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.banner_h2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      font-size: 30vw;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000;
+      line-height: 100vh;
+      mix-blend-mode: screen;
+}
 
 h1 { color: rgb(243, 205, 52);
       font-style: italic;
       margin-left: 45% ;
-}
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
 
 
 p {  color: cornsilk;
-      margin-bottom: 300%;
+      /* margin-bottom: 300%; */
 
 }
+
+main {margin-left: 160px;  padding: 0px 10px}
 
 .nav {width: 150px; position: fixed;
       z-index: 1; top: 20px; left: 10px; background-color: black;
@@ -26,13 +60,11 @@ p {  color: cornsilk;
 
 
 
-.img  { margin-bottom:70%;
-   width: 600px;
-   height:auto;
-  background-image: url('images_kitchen.jpg');
-background-repeat: no-repeat;
-background-size: contain;
-border: 1px solid cornsilk;
+img { margin-left:30px; 
+      width: 600%;
+   height: auto;
+   padding: 60px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border: 5px solid cornsilk;
 }
- 
-      

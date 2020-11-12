@@ -12,16 +12,26 @@ body {background-color: black; font-family: 'Charm', cursive;}
 
 
 /* About Page Headings*/
-.h1about{text-align: center;color: goldenrod;font-family:cursive;}
+.h1about{text-align: center;color: goldenrod;font-family:'Charm',cursive;font-size: 80px;}
 .abouth2 {text-align: center;color: goldenrod;}
-.abouth1d {text-align: center;color: goldenrod;}
+.abouth1d {text-align: center;color: goldenrod;font-size: 45px;}
 
 /*Paragraphs*/
-.Ap {text-align: center;color: white;border: solid goldenrod;border-width: 50px;padding: 10%; font-size: 30px; background-color: black;}
-.Ap2 {text-align: center;color: white;}
+
+.Ap {text-align: center;color: white;border: solid black;border-width: 50px;padding: 10%; font-size: 30px; background-color: black;}
+
+.Ap2 {text-align: center;color: white;padding-top: 5%;font-size: 30px;}
 
 /*Grid layout and Images*/
-.Pro{align-self: center;margin-top: -1.2%;}
+.Pro{align-self: center;margin-top: -1.2%;padding: 5%;float: right;}
 .pplPic {border-radius: 50%;
     
    }
+   .Pro2 {align-self: center; padding: 5%;float: right;}
+
+   /* Name Labels*/
+
+.cr{color: goldenrod;} 
+
+
+
