@@ -21,7 +21,14 @@ body {background-color: black; font-family: 'Charm', cursive;}
 .Ap2 {text-align: center;color: white;}
 
 /*Grid layout and Images*/
-.Pro{align-self: center;margin-top: -1.2%;}
+.Pro{align-self: center;margin-top: -1.2%;padding: 5%;float: right;}
 .pplPic {border-radius: 50%;
     
    }
+.Pro2 {align-self: center; padding: 5%;float: right;}
+
+
+
+
+
+
