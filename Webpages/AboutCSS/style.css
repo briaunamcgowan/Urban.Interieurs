@@ -12,12 +12,12 @@ body {background-color: black; font-family: 'Charm', cursive;}
 
 
 /* About Page Headings*/
-.h1about{text-align: center;color: goldenrod;font-family:cursive;}
+.h1about{text-align: center;color: goldenrod;font-family:'Charm',cursive;font-size: 80px;}
 .abouth2 {text-align: center;color: goldenrod;}
 .abouth1d {text-align: center;color: goldenrod;}
 
 /*Paragraphs*/
-.Ap {text-align: center;color: white;border: solid goldenrod;border-width: 50px;padding: 10%; font-size: 30px; background-color: black;}
+.Ap {text-align: center;color: white;border: solid black;border-width: 50px;padding: 10%; font-size: 30px; background-color: black;}
 .Ap2 {text-align: center;color: white;}
 
 /*Grid layout and Images*/
@@ -26,6 +26,7 @@ body {background-color: black; font-family: 'Charm', cursive;}
     
    }
 .Pro2 {align-self: center; padding: 5%;float: right;}
+
 
 
 
