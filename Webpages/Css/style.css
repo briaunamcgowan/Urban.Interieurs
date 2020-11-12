@@ -3,7 +3,7 @@ body{font-family: 'Charm', cursive;
 display: flex;
 justify-content: center;
 align-items: center;    
-cursor: none;
+cursor:;
 }
 
 #cursor {
@@ -127,6 +127,14 @@ p {
     margin: 0;
     padding: 0;
     display: inline-flexbox ;
+}
+
+.my_container:hover ~ #cursor{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #f1f1f1;
+    animation: animate 5s linear infinite;
+
 }
 
 
