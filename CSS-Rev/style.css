@@ -1,1 +1,23 @@
-body{font-family: 'Charm', cursive;}
+html {position: relative; min-height: 100%;}
+
+body { margin: 0 0 100px;
+padding: 0px;
+font-family:'Charm', cursive; color: white ;}
+
+.site {display:flex; min-height: 100vh;flex-direction: column;}
+
+main {margin-left: 160px; padding: 0px 10px}
+
+/*nav bar*/
+.nav {width: 150px; position: fixed;
+    z-index: 1; top: 20px; left: 10px; background-color: black; 
+    overflow-x: hidden; padding: 8px 0;
+}
+
+.nav  li {display: inline-block; padding: 0 25px 0 25px}
+
+.nav  li  a {text-decoration: none; color:whitesmoke; font-size: 25px;
+    display: block; padding: 6px 8px 6px 16px;
+}
+
+.nav li  a:hover {color: darkgoldenrod}
